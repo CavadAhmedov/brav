@@ -1,0 +1,46 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+/* WHAT WE DO */
+.col-xs-12{
+	height:50px;
+	margin-bottom:2%;
+}
+h2{
+	border-bottom: thick double #69B417;
+	border-size:60px;
+}
+
+.col-md-4{
+	padding-top: 3%;
+	height:250px;
+	color:black;
+}
+i{
+	font-size: 50px;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:#69B417;
+}
+a:visited{
+	text-decoration:none;
+}
+.bdr{
+	height: 100px;
+	width:100px;
+	border: 1px solid #69B417; 
+	line-height:100px;
+	border-radius:100%;
+	background-color:#69B417;
+}
+
+
+
+
+
+/* What END */

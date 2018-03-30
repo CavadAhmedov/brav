@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+/*  Portfolio start*/
+#portfolio{
+	margin-top:10%;
+}
+.col-xs-3{
+	height:50px;
+	margin-bottom:5%;
+}
+.col-md-4{
+	height:400px;
+	padding:0;
+	overflow: hidden;
+}
+	
+.col-md-4 > img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	position:relative;
+	top:0;
+	left:0;
+	transition:0.5s;
+	transition-duration:0.5s;
+
+
+}
+.inner{
+	margin:0;
+	height:0;
+	width:100%;
+	background-color:#3B3B3B;
+	color:white;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	opacity: 0;
+	transition:0.5s;
+	transition-duration:0.5;
+}
+
+.inner > .float-left > p{
+	color:#9F9F9F;
+}
+button{
+	margin-top:25px;
+}
+.col-xs-8 > h3{
+	margin-top:10px;
+}
+.col-md-4:hover img{
+	top:-100px;
+}
+.col-md-4:hover .inner{
+	height:100px;
+	opacity: 1;
+}
+
+
+/* portfolio end */
+
+
+
+/* Our team */
+
+#OurTeam{
+	margin-top:10%;
+}
+
+#OurTeam > .col-xs-4{
+	height:600px;
+	background-color:#F8F8F8;
+	
+}
+img{
+	width:100%;
+	height:40%;
+}
+
+.inner2 > .col-xs-3{
+	font-size:40px;
+}
+.col-xs-12{
+	background-color:#F8F8F8;
+}
+.col-xs-11{
+	height:50px;
+	margin-bottom:5%;
+}
+/* Our team end */
